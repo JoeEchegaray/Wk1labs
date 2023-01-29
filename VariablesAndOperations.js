@@ -34,12 +34,14 @@ numberOfSeatsLeft = numberOfSeatsLeft - 2;
 costOfGroceries = costOfGroceries + 2.15;
 
 //birth certificate was printed incorrectly, change the middle initial to something else
-
+middleInitial = "J";
 
 //the season has changed, update the hot outside variable to be opposite of what it was
-
+isHotOutside = false;
+isColdOutside = true;
 
 //create a new variable called full name using the customer's first name, the middle initial, and a last name of your choice
-
+let fullName = [(customerFirstName), (middleInitial), ("Smith")]
 
 //print a line to the console that introduces the customer and says they live at the address variable
+console.log("Hello", fullName, "You Live at", streetAddress);
