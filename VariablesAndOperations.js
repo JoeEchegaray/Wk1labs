@@ -44,4 +44,4 @@ isHotOutside = false;
 let fullName = customerFirstName + ' ' + middleInitial + ' ' + 'Smith';
 
 //print a line to the console that introduces the customer and says they live at the address variable
-console.log('Hello ' + fullName + ', ' + 'You Live at ' + streetAddress);
+console.log('Hello ' + fullName + ', ' + 'You Live at ' + streetAddress + '.');
