@@ -9,7 +9,7 @@ var middleInitial = "L";
 
 //create a variable to hold true if it's hot outside and false if it's cold outside
 var isHotOutside = true;
-var isColdOutside = false;
+
 //create a variable to hold a customer's first name
 var customerFirstName = "Joe"
 
@@ -38,10 +38,10 @@ middleInitial = "J";
 
 //the season has changed, update the hot outside variable to be opposite of what it was
 isHotOutside = false;
-isColdOutside = true;
+
 
 //create a new variable called full name using the customer's first name, the middle initial, and a last name of your choice
-let fullName = [(customerFirstName), (middleInitial), ("Smith")]
+let fullName = customerFirstName + ' ' + middleInitial + ' ' + 'Smith';
 
 //print a line to the console that introduces the customer and says they live at the address variable
-console.log("Hello", fullName, "You Live at", streetAddress);
+console.log('Hello ' + fullName + ', ' + 'You Live at ' + streetAddress);
